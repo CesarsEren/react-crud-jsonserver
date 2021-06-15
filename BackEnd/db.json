@@ -1,24 +1,19 @@
 {
   "productos": [
     {
-      "id": 1,
-      "nombre": "Producto 2454",
-      "precio": "20.5"
-    },
+      "producto_id": 1,
+      "producto_nombre": "Producto 2454",
+      "producto_precio": "20.5",
+      "categoria": {
+        "categoria_id": 1,
+        "categoria_nombre": "MEGAS REGULARES"
+      }
+    }
+  ],
+  "categorias": [
     {
-      "id": "5",
-      "nombre": "Cesars",
-      "precio": "14"
-    },
-    {
-      "id": "2",
-      "nombre": "Cesars 🙄",
-      "precio": "dsad"
-    },
-    {
-      "id": "7",
-      "nombre": "asda",
-      "precio": "dsad"
+      "categoria_id": 1,
+      "categoria_nombre": "MEGAS REGULARES"
     }
   ]
 }
